@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+ font-family: 'century gothic';
+}
+main{
+    position: relative;
+min-height: 80%;
+}
+html,
+body {
+height: 100%;
+}
+h1{
+   text-shadow: 2px 2px 10px;
+    color:black;
+    display: inline-block;
+    width:20%;
+    font-size:100px;
+    margin-left:5%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.Nav{
+text-shadow: 1px 1px 1px;
+width:70%;
+display: inline-block;
+}
+
+
+.dws-menu .Cars ul li{
+  margin:1px;
+     width:200px;
+}
+
+.dws-menu .Cars ul{
+  
+  display: none;
+   z-index: 10;
+    position: absolute;
+ margin-top:20px;
+
+    
+}
+.dws-menu .Cars:hover > ul{
+    display: block;
+   
+}
+.dws-menu .Cars:active > ul{
+    display: block;
+    transition: 1s;
+}
+.SubLi:hover{
+     transform: skew(5deg,-5deg);
+    background-color: lightblue;
+}
+@media(max-width:2000px){
+    header .Nav{
+        display:block;
+    margin-left:15%;
+    }
+    header h1{
+       
+    }
+}
+header li{
+      box-shadow: 5px 5px 20px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    transition: .5s;
+    color:black;
+    font-size: 50px;
+    display: inline-block;
+    margin-left:30px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+ li:hover{
+        box-shadow: 0px 0px 0px;
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+.block{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    
+}
+.block{
+    margin-right:5px;     
+        background-attachment: fixed;
+    background-image: url(2020_lamborghini_aventador_svj_xago_edition_2_2560x1440.jpg);
+    display: inline-block;
+    width:400px;
+    height:400px;
+     background-repeat: no-repeat;
+    border:1px solid gray;
+    transition: .5s;
+}
+.block:hover{
+   
+    transform: scale(1.01);
+ 
+    transition: .5s;
+      display:inline-block;
+    font-size: 30px;
+}
+.space{
+    height: 5px;
+}
+
+.parallax__layer {
+    background-image: url(2020_lamborghini_aventador_svj_xago_edition_2_2560x1440.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height:700px; 
+    border-bottom: 1px solid black;
+}
+footer{
+margin-top:50px;
+}
+.Rights{
+    border-top:1px solid black;
+    font-size: 20px;
+  padding-bottom: 25px;
+    padding-top: 25px;
+        border-bottom:1px solid black;
+}
+span{
+    margin-left:5%;
+}
+.FooterLi{
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.parallax__layer2{
+      border-top: 1px solid black;
+     background-image: url(Gemerad.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height:700px; 
+    border-bottom: 1px solid black;
+}
+.maincontent{
+    text-align: justify;
+   margin-left:5%;
+  
+    width:90%;
+}
+.maincontent{
+    font-size:50px;
+}
+.NameP{
+    font-size: 70px;
+}
+.fa-light fa-bell{
+    font-size: 20px;
+    color:black;
+}
