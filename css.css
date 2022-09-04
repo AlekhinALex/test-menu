@@ -56,6 +56,9 @@ display: inline-block;
      transform: skew(5deg,-5deg);
     background-color: red;
 }
+.SubLi:active{
+    transform:scale(0.99);
+}
 @media(max-width:2000px){
     header .Nav{
         display:block;
